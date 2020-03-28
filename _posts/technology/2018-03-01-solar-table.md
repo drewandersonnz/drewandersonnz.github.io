@@ -11,6 +11,7 @@ category: projects
 tags:
 - projects
 - technology
+- energy
 - solar
 
 ---
