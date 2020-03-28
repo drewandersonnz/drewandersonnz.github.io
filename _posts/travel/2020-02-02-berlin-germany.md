@@ -1,8 +1,16 @@
 ---
-layout: links
-title: Berlin Links
+layout: post
+
+title: Berlin Germany 2020
+date: 2020-02-02
+
+description: Back to Europe!
+
+category: travel
 
 tags:
+- travel
+- germany
 - berlin
 
 links:
@@ -17,3 +25,6 @@ links:
   title: movingto-berlin.com
 
 ---
+
+Landed in Berlin, time to get setup.
+
