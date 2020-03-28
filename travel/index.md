@@ -1,6 +1,8 @@
 ---
 layout: links
-title: Travel Links
+title: Travel
+
+description: Places I have been
 
 tags: travel
 
@@ -33,9 +35,21 @@ links:
   cities:
   - Gold Coast
 
+- uri: #
+  title: China
+  cities:
+  - Beijing
+
+- uri: #
+  title: United States of America
+  cities:
+  - Raleigh, NC
+
 - uri: /travel/berlin
   title: Germany
   cities:
   - Berlin
 
 ---
+
+Testing
