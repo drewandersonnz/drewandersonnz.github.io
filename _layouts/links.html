@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<h1>{% if page.title %}{{ page.title }}{% endif %}</h1>
+
+<or>
+{% for link in page.links %}
+    <li><a href="{{ link.uri }}">{{ link.title }}</a></li>
+{% endfor %}
+</or>
+
+{{ content }}
+
