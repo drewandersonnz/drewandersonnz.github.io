@@ -6,10 +6,11 @@ date: 2020-03-01
 
 description: Home Assistant exists
 
-category: automation
+category: technology
 
 tags:
 - projects
+- technology
 - homeassistant
 - raspberry-pi
 

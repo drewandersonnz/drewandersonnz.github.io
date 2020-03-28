@@ -20,10 +20,10 @@ Hi there
 <div class="col-sm" markdown="1">
 # Interests
 
-* Science and Technology
 * Futurism
+* Science and Technology
+* Space Exploration
 * Arduino / ESP / Makers / Electronics
-* Space and related technologies
 </div>
 
 <div class="col-sm" markdown="1">
