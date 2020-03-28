@@ -2,6 +2,8 @@
 layout: home
 ---
 
+Half blog, half bookmarks
+
 <div class="row">
 <div class="col-sm" markdown="1">
 # Personal
