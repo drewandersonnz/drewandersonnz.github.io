@@ -2,6 +2,7 @@
 layout: default
 
 title: Sitemap
+description: Cannot be on r/MapsWithoutNZ
 
 ---
 

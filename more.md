@@ -1,7 +1,6 @@
 ---
 layout: links
 title: More
-
 description: Things that are hard to categorise
 
 links:

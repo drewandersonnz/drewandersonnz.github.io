@@ -2,6 +2,7 @@
 layout: default
 
 title: Technology
+description: The application of Science to make our lives easier
 
 ---
 

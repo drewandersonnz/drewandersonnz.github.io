@@ -8,9 +8,9 @@ layout: home
 
 * [Science](/science) and [Technology](/technology)
 * [Weather](/weather)
-* Astronomy, Universe, and Space Exploration: Rockets, Survival Systems
-* Renewable Energy: Solar, Wind, Hydro, Storage
-* Sustainability and Off-grid
+* [Astronomy, Universe, and Space Exploration](/space): Rockets, Survival Systems
+* [Renewable Energy](/energy): Solar, Wind, Hydro, Storage
+* [Sustainability](/energy) and Off-grid
 * Futurism
 * Financial Independence (personal goals)
 * Automation, Instrumentation, and Electronics: Arduino, ESP, Home Assistant, Sensors
