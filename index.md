@@ -13,7 +13,7 @@ layout: home
 * [Sustainability](/energy) and Off-grid
 * Futurism
 * Financial Independence (personal goals)
-* Automation, Instrumentation, and Electronics: Arduino, ESP, Home Assistant, Sensors
+* [Automation, Instrumentation, and Electronics](/makers): Arduino, ESP, Home Assistant, Sensors
 * Sports of all kinds
 * [Music](/music)
 </div>

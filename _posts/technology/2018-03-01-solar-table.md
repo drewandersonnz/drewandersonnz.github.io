@@ -9,10 +9,11 @@ description: I had a spare 175w solar panel, turn it into an outdoor table which
 category: projects
 
 tags:
-- projects
-- technology
 - energy
+- makers
+- projects
 - solar
+- technology
 
 ---
 
