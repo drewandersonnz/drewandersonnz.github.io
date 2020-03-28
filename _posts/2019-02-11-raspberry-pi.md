@@ -2,14 +2,15 @@
 layout: post
 
 title: Raspberry Pi
-date: 2019-01-01
+date: 2020-02-11
 
 description: My current home server
 
 category: technology
 
 tags:
-- raspberry pi
+- technology
+- raspberry-pi
 
 ---
 

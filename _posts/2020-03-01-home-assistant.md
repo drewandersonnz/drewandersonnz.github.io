@@ -11,6 +11,7 @@ category: automation
 tags:
 - projects
 - homeassistant
+- raspberry-pi
 
 ---
 
