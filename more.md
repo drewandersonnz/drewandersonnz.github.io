@@ -1,10 +1,13 @@
 ---
 layout: links
-title: Other
+title: More
 
 description: Things that are hard to categorise
 
 links:
+- title: Sitemap
+  uri: /sitemap
+
 - title: All Posts
   uri: /posts
 
