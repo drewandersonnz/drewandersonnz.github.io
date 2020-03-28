@@ -9,6 +9,7 @@ description: Home Assistant exists
 category: automation
 
 tags:
+- projects
 - homeassistant
 
 ---

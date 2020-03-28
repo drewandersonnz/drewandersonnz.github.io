@@ -52,3 +52,10 @@ links:
 
 ---
 
+{% for post in site.tags["travel"] %}
+
+[{{ post.title }}]({{ post.url }})
+
+{{ post.description }}
+
+{% endfor %}

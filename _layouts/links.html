@@ -1,10 +1,6 @@
 ---
-layout: wrapper-bootstrap
+layout: default
 ---
-
-<div class="container">
-
-<h1>{% if page.title %}{{ page.title }}{% endif %}</h1>
 
 <or>
 {% for link in page.links %}
@@ -13,6 +9,4 @@ layout: wrapper-bootstrap
 </or>
 
 {{ content }}
-
-</div>
 

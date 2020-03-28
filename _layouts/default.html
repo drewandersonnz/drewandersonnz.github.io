@@ -1,10 +1,7 @@
 ---
-layout: wrapper-bootstrap
+layout: default-notitle
 ---
 
-<div class="container">
+<h1>{% if page.title %}{{ page.title }}{% endif %}</h1>
 
 {{ content }}
-
-</div>
-

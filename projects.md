@@ -2,6 +2,13 @@
 layout: links
 title: Projects
 
-# TODO: Setup collection for projects
+tag: projects
 ---
 
+{% for post in site.tags[page.tag] %}
+
+[{{ post.title }}]({{ post.url }})
+
+{{ post.description }}
+
+{% endfor %}
