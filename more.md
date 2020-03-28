@@ -12,10 +12,5 @@ links:
 
 ---
 
-{% for post in site.tags["other"] %}
-
-[{{ post.title }}]({{ post.url }})
-
-{{ post.description }}
-
-{% endfor %}
+{% assign posts = site.tags["other"] %}
+{% include posts.html posts=posts %}

@@ -6,10 +6,5 @@ description: Learning because we can
 
 ---
 
-{% for post in site.tags["science"] %}
-
-[{{ post.title }}]({{ post.url }})
-
-{{ post.description }}
-
-{% endfor %}
+{% assign posts = site.tags["science"] %}
+{% include posts.html posts=posts %}

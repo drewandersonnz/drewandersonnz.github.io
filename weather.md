@@ -26,10 +26,5 @@ Australia
 * [en.blitzortung.org](http://en.blitzortung.org/live_lightning_maps.php?map=22)
 * [png](http://www.bom.gov.au/fwo/IDA00050.png) [bom.gov.au Brisbane Thunderstorms](http://www.bom.gov.au/qld/forecasts/brisbane-thunderstorms.shtml)
 
-{% for post in site.tags["weather"] %}
-
-[{{ post.title }}]({{ post.url }})
-
-{{ post.description }}
-
-{% endfor %}
+{% assign posts = site.tags["weather"] %}
+{% include posts.html posts=posts %}

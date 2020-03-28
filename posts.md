@@ -5,10 +5,5 @@ title: Posts
 description: Find your posts here!
 ---
 
-{% for post in site.posts %}
-
-[{{ post.title }}]({{ post.url }})
-
-{{ post.description }}
-
-{% endfor %}
+{% assign posts = site.posts %}
+{% include posts.html posts=posts %}

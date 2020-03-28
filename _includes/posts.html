@@ -1,0 +1,7 @@
+{% for post in include.posts %}
+
+[{{ post.title }}]({{ post.url }})
+
+{{ post.description }}
+
+{% endfor %}

@@ -6,10 +6,5 @@ description: Noises, pleasurable noises
 
 ---
 
-{% for post in site.tags["music"] %}
-
-[{{ post.title }}]({{ post.url }})
-
-{{ post.description }}
-
-{% endfor %}
+{% assign posts = site.tags["music"] %}
+{% include posts.html posts=posts %}

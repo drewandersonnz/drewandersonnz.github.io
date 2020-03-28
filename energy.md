@@ -6,10 +6,5 @@ description: Making the world a better place
 
 ---
 
-{% for post in site.tags["energy"] %}
-
-[{{ post.title }}]({{ post.url }})
-
-{{ post.description }}
-
-{% endfor %}
+{% assign posts = site.tags["energy"] %}
+{% include posts.html posts=posts %}

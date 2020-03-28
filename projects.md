@@ -5,10 +5,5 @@ description: Dreams might be easier
 
 ---
 
-{% for post in site.tags["projects"] %}
-
-[{{ post.title }}]({{ post.url }})
-
-{{ post.description }}
-
-{% endfor %}
+{% assign posts = site.tags["projects"] %}
+{% include posts.html posts=posts %}
