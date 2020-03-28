@@ -1,10 +1,19 @@
 ---
 layout: links
-title: Other links
+title: Other
+
+description: Things that are hard to categorise
 
 links:
-
-- uri: /covid19
-  title: COVID-19
+- title: All Posts
+  uri: /posts
 
 ---
+
+{% for post in site.tags["other"] %}
+
+[{{ post.title }}]({{ post.url }})
+
+{{ post.description }}
+
+{% endfor %}
