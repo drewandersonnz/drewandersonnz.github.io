@@ -2,9 +2,6 @@
 layout: home
 ---
 
-Hi there
-
-
 <div class="row">
 <div class="col-sm" markdown="1">
 # Work
