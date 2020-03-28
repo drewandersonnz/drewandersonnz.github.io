@@ -2,10 +2,9 @@
 layout: links
 title: Projects
 
-tag: projects
 ---
 
-{% for post in site.tags[page.tag] %}
+{% for post in site.tags["projects"] %}
 
 [{{ post.title }}]({{ post.url }})
 
