@@ -4,6 +4,9 @@ title: More
 description: Things that are hard to categorise
 
 links:
+- title: Draft ideas
+  uri: /drafts
+
 - title: Sitemap
   uri: /sitemap
 
