@@ -4,7 +4,7 @@ layout: post
 title: Geany missing underscore
 date: 2020-03-28
 
-description: so Geany (text editor) is refuusing to show the underscore character
+description: so Geany (text editor) is refusing to show the underscore character
 
 category: technology
 
