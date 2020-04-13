@@ -24,6 +24,7 @@ Firefox:
 * [imagus](https://addons.mozilla.org/en-US/firefox/addon/imagus/)
 * [tree style tab](https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/)
 * [foxyproxy standard](https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/)
+* [to-google-translate](https://addons.mozilla.org/en-US/firefox/addon/to-google-translate/)
 
 Chrome / Chromium:
 * [ublock origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
