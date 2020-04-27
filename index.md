@@ -2,7 +2,7 @@
 layout: home
 ---
 
-Half blog, half bookmarks
+Half blog, half bookmarks, half cheatsheets. Trying not to do everything in halves.
 
 <div class="row">
 <div class="col-sm" markdown="1">
