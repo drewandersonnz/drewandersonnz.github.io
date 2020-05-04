@@ -14,6 +14,7 @@ tags:
 
 ---
 
+```
 * firefox (Ctrl-Alt-f)
 * libreoffice --calc (Ctrl-Alt-c)
 * geany -i (Ctrl-Alt-g)
@@ -22,3 +23,4 @@ tags:
 * pacmd set-card-profile 0 output:analog-stereo (Ctrl-Alt-w)
 * pacmd set-card-profile 0 output:hdmi-stereo (Ctrl-Alt-q)
 * kodi (Ctrl-Alt-k)
+```
