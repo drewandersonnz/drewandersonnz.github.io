@@ -25,9 +25,11 @@ Firefox:
 * [tree style tab](https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/)
 * [foxyproxy standard](https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/)
 * [to-google-translate](https://addons.mozilla.org/en-US/firefox/addon/to-google-translate/)
+* [violentmonkey](https://addons.mozilla.org/firefox/addon/violentmonkey/)
 
 Chrome / Chromium:
 * [ublock origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
 * [the qr code extension](https://chrome.google.com/webstore/detail/the-qr-code-extension/oijdcdmnjjgnnhgljmhkjlablaejfeeb)
 * [imagus](https://chrome.google.com/webstore/detail/imagus/immpkjjlgappgfkkfieppnmlhakdmaab)
 * [foxyproxy standard](https://chrome.google.com/webstore/detail/foxyproxy-standard/gcknhkkoolaabfmlnjonogaaifnjlfnp)
+* [violentmonkey](https://chrome.google.com/webstore/detail/violent-monkey/jinjaccalgkegednnccohejagnlnfdag)
