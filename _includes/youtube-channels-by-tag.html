@@ -1,0 +1,14 @@
+<a href="/media">media</a>
+channels
+{% for channel in site.data.tagdb %}
+{% assign channel = channel[1] %}
+{% assign display = 0 %}
+{% for channel_tag in channel[1]._tags %}
+{% assign tag = channel_tag | split: "#" %}
+{% assign tag2 = tag[2] %}
+{% for include_tag in include.tags %}
+{% if include_tag == tag2 %}{% assign display = 1 %}{% endif %}
+{% endfor %}
+{% endfor %}
+{% if display == 1 %}{% include youtube-channel-from-tagdb.html channel=channel %}{% endif %}
+{% endfor %}

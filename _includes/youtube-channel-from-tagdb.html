@@ -1,0 +1,9 @@
+{% assign ichannel=include.channel[1]._kvs %}
+{% assign itags=include.channel[1]._tags %}
+<li><a href="{{ ichannel.channelUrl }}">{{ ichannel.title }}</a>
+{% for tag in itags %}
+{% assign tagsplit = tag | split: "#" %}
+{% assign tag2 = tagsplit[2] %}
+#{{tag2}}
+{% endfor %}
+</li>
