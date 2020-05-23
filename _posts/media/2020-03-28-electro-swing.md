@@ -9,6 +9,7 @@ description: Electro Swing!
 category: music
 
 tags:
+- media
 - music
 
 links:

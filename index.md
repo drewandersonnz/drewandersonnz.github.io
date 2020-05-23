@@ -17,7 +17,7 @@ Half blog, half bookmarks, half cheatsheets. Trying not to do everything in halv
 * Financial Independence (personal goals)
 * [Automation, Instrumentation, and Electronics](/makers): Arduino, ESP, Home Assistant, Sensors
 * Sports of all kinds
-* [Music](/music)
+* [Movies, Music, Games, and other Media](/media)
 </div>
 
 <div class="col-sm" markdown="1">
