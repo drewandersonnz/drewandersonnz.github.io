@@ -10,6 +10,7 @@ category: work
 
 tags:
 - work
+- media
 - games
 
 links:
