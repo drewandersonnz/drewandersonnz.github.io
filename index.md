@@ -23,13 +23,13 @@ Half blog, half bookmarks, half cheatsheets. Trying not to do everything in halv
 <div class="col-sm" markdown="1">
 # Work
 
-* Containers and Orchestration: Kubernetes, OpenShift, Docker, Ansible
-* Programming: Go, Python, PHP
+* [Containers and Orchestration](/work): Kubernetes, OpenShift, Docker, Ansible
+* [Programming](/work): Go, Python, PHP
 * Git: Git, GitHub, GitLab
-* Cloud: AWS, GCP, Virtualisation
-* Networking: OpenVPN, AWS VPC, Reverse Proxy, Load Balancing
+* [Cloud](/work): AWS, GCP, Virtualisation
+* [Networking](/work): OpenVPN, AWS VPC, Reverse Proxy, Load Balancing
 * Storage: AWS S3/EBS, NFS. BTRFS, RAID
 * Protocols: DNS, HTTP, SSH, MQTT
-* Linux: Red Hat, Debian, Ubuntu, Fedora, Raspbian
+* [Linux](/work): Red Hat, Debian, Ubuntu, Fedora, Raspbian
 </div>
 </div>
