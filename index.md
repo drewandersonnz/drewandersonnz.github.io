@@ -16,7 +16,7 @@ Half blog, half bookmarks, half cheatsheets. Trying not to do everything in halv
 * Futurism
 * Financial Independence (personal goals)
 * [Automation, Instrumentation, and Electronics](/makers): Arduino, ESP, Home Assistant, Sensors
-* Sports of all kinds
+* [Sports](/sport) of all kinds
 * [Movies, Music, Games, and other Media](/media)
 </div>
 
