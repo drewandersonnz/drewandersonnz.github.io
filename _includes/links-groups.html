@@ -1,0 +1,8 @@
+
+{% if include.links %}
+<or>
+{% for link in include.links %}
+    <li><a href="{{ link.uri }}">{{ link.title }}</a></li>
+{% endfor %}
+</or>
+{% endif %}

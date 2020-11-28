@@ -4,10 +4,4 @@ layout: default
 
 {{ content }}
 
-{% if page.links %}
-<or>
-{% for link in page.links %}
-    <li><a href="{{ link.uri }}">{{ link.title }}</a></li>
-{% endfor %}
-</or>
-{% endif %}
+{% include links-groups.html enablelinkgroups=page.enablelinkgroups links=page.links %}
