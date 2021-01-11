@@ -16,6 +16,8 @@ locations:
 
       - title: Meteoalarm.eu
         url:   https://www.meteoalarm.eu/
+      - title: snow-forecast.com France weather map
+        url:   https://www.snow-forecast.com/maps/dynamic/france
 
   berlin:
     title: Berlin, Germany
