@@ -1,0 +1,50 @@
+---
+layout: wrapper-bootstrap
+
+navlinks:
+
+- title: Projects
+  uri: /projects
+
+- title: Technology
+  uri: /technology
+
+- title: Travel
+  uri: /travel
+
+- title: More
+  uri: /more
+
+---
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="/">{{ site.name }}</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                {% for link in layout.navlinks %}
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ link.uri }}">{{ link.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<main role="main" class="flex-shrink-0">
+    {{ content }}
+</main>
+
+<footer class="footer mt-auto py-3">
+    <div class="container">
+        <a href="https://twitter.com/drewandersonnz">twitter</a>
+        <a href="https://github.com/drewandersonnz">github</a>
+        <a href="https://www.linkedin.com/in/drewandersonnz">linkedin</a>
+        <a href="https://www.youtube.com/channel/UCb8H0sN5SQSCgA6GvA8pKGg/playlists?view=1&sort=dd&shelf_id=0">youtube</a>
+    </div>
+</footer>
