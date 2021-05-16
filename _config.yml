@@ -4,3 +4,6 @@ version: v1.2.0
 
 exclude:
 - "*.bash"
+
+images_source: https://www.drewanderson.org/drewanderson.org-images
+images_source_dev: http://127.0.0.1:8081
