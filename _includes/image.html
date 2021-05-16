@@ -1,1 +1,3 @@
-<img src="{{ site.images_source }}/{{ include.url }}" style="{{ include.style }}" class="{{ include.class }}" />
+{% if include.ahref %}<a href="{{ include.ahref }}" style="{{ include.astyle }}" class="{{ include.aclass }}">{% endif %}
+<img src="{{ site.images_source }}/{{ include.src }}" style="{{ include.imgstyle }}" class="{{ include.imgclass }}" />
+{% if include.ahref %}</a>{% endif %}
