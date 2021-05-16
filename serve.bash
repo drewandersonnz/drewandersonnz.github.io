@@ -5,10 +5,16 @@ if [ ! -f ./.git/config ]; then
     exit 1;
 fi
 
+export JEKYLL_IMAGE="docker.io/jekyll/jekyll:4.0"
+
+podman pull ${JEKYLL_IMAGE}
+mkdir .jekyll-cache
+mkdir _site
+
 echo "Browse to http://127.0.0.1:8080/ to see the served website"
 
 podman run --rm -it \
-  --volume="$PWD:/srv/jekyll" \
+  --volume="$PWD:/srv/jekyll:z" \
   -p 8080:4000 \
-  jekyll/jekyll:4.0 \
+  ${JEKYLL_IMAGE} \
   jekyll serve
