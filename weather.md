@@ -21,14 +21,6 @@ locations:
       - title: snow-forecast.com France weather map
         url:   https://www.snow-forecast.com/maps/dynamic/france
 
-  berlin:
-    title: Berlin, Germany
-    lat: 52.5081913
-    lon: 13.3122519
-    wiki: https://en.wikipedia.org/wiki/Berlin
-
-    urls:
-
   auckland:
     title: Auckland, New Zealand
     lat: -36.8354646
@@ -45,6 +37,14 @@ locations:
     lat: -37.3810389
     lon: 175.8508468
     wiki: https://en.wikipedia.org/wiki/Waihi
+
+    urls:
+
+  berlin:
+    title: Berlin, Germany
+    lat: 52.5081913
+    lon: 13.3122519
+    wiki: https://en.wikipedia.org/wiki/Berlin
 
     urls:
 
