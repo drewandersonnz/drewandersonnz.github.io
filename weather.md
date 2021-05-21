@@ -14,6 +14,8 @@ locations:
 
     urls:
 
+      - title: AccuWeather Rain Radar
+        url:   https://www.accuweather.com/en/fr/lyon/171210/weather-radar/171210
       - title: Meteoalarm.eu
         url:   https://www.meteoalarm.eu/
       - title: snow-forecast.com France weather map
