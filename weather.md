@@ -89,7 +89,7 @@ locations:
 
 <div class="row">
 {% for location in page.locations %}
-    <div class="col-sm-4">
+    <div class="col-md-4 col-sm-6">
         <div class="card border-0" style="width: 18rem;">
             <div class="card-body">
                 <h5 class="card-title">{{ location[1].title }}</h5>
