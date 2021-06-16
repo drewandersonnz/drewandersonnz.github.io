@@ -14,6 +14,8 @@ locations:
 
     urls:
 
+      - title: Vigilance Meteo France
+        url:   https://vigilance.meteofrance.fr/fr
       - title: AccuWeather Rain Radar
         url:   https://www.accuweather.com/en/fr/lyon/171210/weather-radar/171210
       - title: Meteoalarm.eu
