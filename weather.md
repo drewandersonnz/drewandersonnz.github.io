@@ -106,6 +106,14 @@ locations:
 <img src="https://www.lightningmaps.org/Images/favicon.ico" />
 </a>
 
+<a class="card-link" title="google.com/maps" href="https://www.google.com/maps/search/?api=1&query={{location[1].lat}},{{location[1].lon}}">
+<img src="https://www.google.com/images/branding/product/ico/maps15_bnuw3a_32dp.ico" />
+</a>
+
+<a class="card-link" title="google.com/maps" href="https://geohack.toolforge.org/geohack.php?params={{location[1].lat}}_N_{{location[1].lon}}_E_">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/FP_Satellite_icon.svg/32px-FP_Satellite_icon.svg.png" />
+</a>
+
 <a class="card-link" title="wikipedia.org" href="{{location[1].wiki}}">
 <img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" />
 </a>
