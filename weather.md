@@ -8,8 +8,8 @@ locations:
 
   lyon:
     title: Lyon, France
-    lat: 45.757934
-    lon: 4.764909
+    lat: 45.763597
+    lon: 4.849712
     wiki: https://en.wikipedia.org/wiki/Lyon
 
     urls:
@@ -27,8 +27,8 @@ locations:
 
   auckland:
     title: Auckland, New Zealand
-    lat: -36.8354646
-    lon: 174.6043116
+    lat: -36.8358162
+    lon: 174.6048105
     wiki: https://en.wikipedia.org/wiki/Auckland
 
     urls:
@@ -38,16 +38,16 @@ locations:
 
   waihi:
     title: Waihi, New Zealand
-    lat: -37.3810389
-    lon: 175.8508468
+    lat: -37.3811556
+    lon: 175.8523153
     wiki: https://en.wikipedia.org/wiki/Waihi
 
     urls:
 
   berlin:
     title: Berlin, Germany
-    lat: 52.5081913
-    lon: 13.3122519
+    lat: 52.5081873
+    lon: 13.3142033
     wiki: https://en.wikipedia.org/wiki/Berlin
 
     urls:
@@ -68,8 +68,8 @@ locations:
 
   ormeau:
     title: Gold Coast, Australia
-    lat: -27.7700421
-    lon: 153.2361218
+    lat: -27.7703191
+    lon: 153.2383924
     wiki: https://en.wikipedia.org/wiki/Gold_Coast,_Queensland
 
     urls:
