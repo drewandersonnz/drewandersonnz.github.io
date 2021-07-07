@@ -20,8 +20,8 @@ locations:
         url:   https://vigilance.meteofrance.fr/fr/rhone
       - title: AccuWeather Rain Radar
         url:   https://www.accuweather.com/en/fr/lyon/171210/weather-radar/171210
-      - title: Meteoalarm.eu
-        url:   https://www.meteoalarm.eu/
+      - title: meteoalarm.org
+        url:   https://meteoalarm.org/en
       - title: snow-forecast.com France weather map
         url:   https://www.snow-forecast.com/maps/dynamic/france
 
@@ -34,7 +34,7 @@ locations:
     urls:
 
       - title: MetService.com
-        url:   http://www.metservice.com/
+        url:   https://www.metservice.com/
 
   waihi:
     title: Waihi, New Zealand
