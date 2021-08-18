@@ -1,0 +1,8 @@
+{% if include.title %}<h1>{{ include.title }}</h1>{% endif %}
+{% if include.links %}
+<ul>
+{% for link in include.links %}
+    <li><a href="{{ link.uri }}">{{ link.title }}</a> {{ link.description }}</li>
+{% endfor %}
+</ul>
+{% endif %}

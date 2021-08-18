@@ -1,8 +1,12 @@
-
-{% if include.links %}
-<or>
-{% for link in include.links %}
-    <li><a href="{{ link.uri }}">{{ link.title }}</a></li>
+{% if include.groups %}
+<div class="container">
+    <div class="row">
+{% for group in include.groups %}
+{% include links-groups-card.html group=include.group title=group.title links=group.links %}
 {% endfor %}
-</or>
+{% if include.links %}{% include links-groups-card.html title="Links" links=include.links %}{% endif %}
+    </div>
+</div>
+{% else %}
+{% if include.links %}{% include links-groups-single.html links=include.links %}{% endif %}
 {% endif %}

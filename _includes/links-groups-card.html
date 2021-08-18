@@ -1,0 +1,13 @@
+
+<div class="py-1 col col-12 col-sm-6 col-lg-4">
+    <div class="card card border-0">
+        <div class="card-body">
+        {% if include.title %}<h5 class="card-title">{{ include.title }}</h5>{% endif %}
+        {% if include.links %}
+            <ul class="list-group list-group-flush">
+                {% for link in include.links %}<li class="list-group-item"><a class="card-link" href="{{ link.uri }}">{{ link.title }}</a> {{ link.description }}</li>{% endfor %}
+            </ul>
+        {% endif %}
+        </div>
+    </div>
+</div>

@@ -94,7 +94,7 @@ locations:
 <div class="row">
 {% for location in page.locations %}
     <div class="col-md-4 col-sm-6">
-        <div class="card border-0" style="width: 18rem;">
+        <div class="card border-0">
             <div class="card-body">
                 <h5 class="card-title">{{ location[1].title }}</h5>
 
@@ -118,9 +118,13 @@ locations:
 <img src="https://en.wikipedia.org/static/favicon/wikipedia.ico" />
 </a>
 
+{% if location[1].urls %}
+<ul class="list-group list-group-flush">
 {% for url in location[1].urls %}
-<li><a href="{{url.url}}">{{url.title}}</a></li>
+<li class="list-group-item"><a class="card-link" href="{{url.url}}">{{url.title}}</a></li>
 {% endfor %}
+</ul>
+{% endif %}
 
             </div>
         </div>
