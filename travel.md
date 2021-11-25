@@ -4,6 +4,11 @@ title: Travel
 
 description: Places I have been
 
+quotes:
+  - quote: "Travel expands the mind. The problem is when you return its hard to put your mind back in its box."
+  - quote: "Travel is the only thing you buy that makes you richer."
+  - quote: "Life is a journey, not a destination."
+
 tags: travel
 
 links:

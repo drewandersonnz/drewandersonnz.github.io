@@ -1,0 +1,36 @@
+# Helper for managing this repo
+
+.PHONY: gitammend gitconfig gitfetchall gitrebaseroot gitremote gitsync
+
+gitammend:
+	git commit --amend --author="Drew Anderson <drewandersonnz@users.noreply.github.com>"
+
+gitconfig:
+	git config user.name "Drew Anderson"
+	git config user.email "drewandersonnz@users.noreply.github.com"
+
+gitfetchall:
+	git fetch --all
+
+gitrebaseroot:
+	git rebase -i --root
+
+gitremote:
+	git remote remove github || /bin/true
+	git remote remove gitlab || /bin/true
+
+	git remote add github git@github.com:drewandersonnz/drewandersonnz.github.io.git
+	git remote add gitlab git@gitlab.com:drewandersonnz/drewandersonnz.github.io.git
+
+gitsync: gitremote gitfetchall
+	git pull origin master
+	git pull github master
+	git pull gitlab master
+
+	git push origin master
+	git push github master
+	git push gitlab master
+
+	echo
+	echo
+	git status

@@ -4,6 +4,10 @@ layout: links
 title: Sports
 description: Get out there!
 
+quotes:
+  - quote: "Without self-discipline, success is impossible, period."
+    origin: "Lou Holtz"
+
 links:
 
 - title: onlysport.org

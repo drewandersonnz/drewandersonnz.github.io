@@ -4,4 +4,6 @@ layout: default-notitle
 
 <h1>{% if page.title %}{{ page.title }}{% endif %}</h1>
 
+{% include quotes.html quotes=page.quotes %}
+
 {{ content }}

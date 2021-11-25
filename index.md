@@ -1,8 +1,9 @@
 ---
 layout: home
----
 
-Half blog, half bookmarks, half cheatsheets. Trying not to do everything in halves.
+quotes:
+  - quote: "Half blog, half bookmarks, half cheatsheets. Trying not to do everything in halves."
+---
 
 <div class="row">
 <div class="col-sm" markdown="1">
@@ -14,7 +15,7 @@ Half blog, half bookmarks, half cheatsheets. Trying not to do everything in halv
 * [Renewable Energy](/energy): Solar, Wind, Hydro, Storage
 * [Sustainability](/energy) and Off-grid
 * Futurism
-* Financial Independence (personal goals)
+* [Financial Independence](/fi) (personal goals)
 * [Automation, Instrumentation, and Electronics](/makers): Arduino, ESP, Home Assistant, Sensors
 * [Sports](/sport) of all kinds
 * [Movies, Music, Games, and other Media](/media)
@@ -29,7 +30,7 @@ Half blog, half bookmarks, half cheatsheets. Trying not to do everything in halv
 * [Cloud](/work): AWS, GCP, Virtualisation
 * [Networking](/work): OpenVPN, AWS VPC, Reverse Proxy, Load Balancing
 * Storage: AWS S3/EBS, NFS. BTRFS, RAID
-* Protocols: DNS, HTTP, SSH, MQTT
+* Protocols: DNS, HTTPS, SSH, MQTT
 * [Linux](/work): Red Hat, Debian, Ubuntu, Fedora, Raspbian
 </div>
 </div>

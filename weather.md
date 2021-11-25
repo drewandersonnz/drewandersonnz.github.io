@@ -4,6 +4,10 @@ layout: default
 title: Weather
 description: Always with the extremes...
 
+quotes:
+  - quote: Wherever you go, no matter what the weather, always bring your own sunshine.
+    origin: Anthony J. D'Angelo
+
 locations:
 
   lyon:
