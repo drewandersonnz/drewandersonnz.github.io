@@ -1,0 +1,11 @@
+{%- include base.html -%}
+{%- assign posts = site.tags["navpanel-fi"] -%}
+{%- assign postsSorted = posts | sort: "navpanel-sort" %}
+<h5 class="card-title">Financial Independence Topics</h5>
+{%- for target in postsSorted -%}
+{%- assign highlight = "" -%}{%- if page.url == target.url -%}{%- assign highlight = "disabled" -%}{%- endif -%}
+
+<li class ="nav-item">
+    <a class ="nav-link {{ highlight }}" href="{{base}}{{ target.url }}">{{ target.title }}</a>
+</li>
+{%- endfor -%}
