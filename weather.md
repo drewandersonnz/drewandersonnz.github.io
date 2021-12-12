@@ -28,6 +28,8 @@ locations:
         url:   https://meteoalarm.org/en
       - title: snow-forecast.com France weather map
         url:   https://www.snow-forecast.com/maps/dynamic/france
+      - title: European Severe Weather Database
+        url:   https://eswd.eu/
 
   auckland:
     title: Auckland, New Zealand
