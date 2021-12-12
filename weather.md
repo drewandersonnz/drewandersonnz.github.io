@@ -26,10 +26,10 @@ locations:
         url:   https://www.accuweather.com/en/fr/lyon/171210/weather-radar/171210
       - title: meteoalarm.org
         url:   https://meteoalarm.org/en
-      - title: snow-forecast.com France weather map
-        url:   https://www.snow-forecast.com/maps/dynamic/france
       - title: European Severe Weather Database
         url:   https://eswd.eu/
+      - title: snow-forecast.com France weather map
+        url:   https://www.snow-forecast.com/maps/dynamic/france
 
   auckland:
     title: Auckland, New Zealand
