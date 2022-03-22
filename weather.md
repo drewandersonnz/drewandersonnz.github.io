@@ -30,6 +30,8 @@ locations:
         url:   https://eswd.eu/
       - title: snow-forecast.com France weather map
         url:   https://www.snow-forecast.com/maps/dynamic/france
+      - title: "Webcam: Radisson Blu Lyon"
+        url:   http://camera.deckchair.com/radisson-blu-lyon-france
 
   auckland:
     title: Auckland, New Zealand
