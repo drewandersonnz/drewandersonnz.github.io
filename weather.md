@@ -52,8 +52,8 @@ locations:
 
   thames:
     title: Thames, New Zealand
-    lat: -37.1398420
-    lon: 175.5416010
+    lat: -37.1402693
+    lon: 175.5414343
     wiki: https://en.wikipedia.org/wiki/Thames,_New_Zealand
     timeanddateembedlocationcode: "n22"
 
