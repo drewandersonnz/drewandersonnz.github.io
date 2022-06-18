@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+{%- include navpanel.html nav=page.navpanel -%}
+
+{% include toc.html html=content %}
+
+{{ content }}
+
+{% include links-groups.html groups=page.linkgroups links=page.links %}
