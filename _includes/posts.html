@@ -3,8 +3,8 @@
 <div class="card border-0">
     <div class="card-body">
         <a href="{{ post.url }}"><h5 class="card-title">{{ post.title }}</h5></a>
-        <p class="card-subtitle mb-2 text-muted">{{ post.date | date: '%d %B %Y' }}</p>
-        <p class="card-text">{{ post.description }}</p>
+        <p class="card-subtitle mb-2 text-muted">{{ post.date | date: '%d %B %Y' }} {% include tags.html tags=post.tags %}</p>
+        <p class="card-text">{{ post.description | default: post.excerpt }}</p>
     </div>
 </div>
 

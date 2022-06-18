@@ -1,0 +1,11 @@
+{%- if include.tags -%}
+{%- assign tags = "" | split: ',' -%}
+
+{%- for tag in include.tags -%}
+{%- assign single = tag | prepend: "#" -%}
+{%- assign tags = tags | push: single -%}
+{%- endfor -%}
+
+{%- assign tags = tags | join: " " -%}
+{{ tags }}
+{%- endif -%}

@@ -12,7 +12,7 @@ navpanel: navpanel-fi.html
 navpanel-sort: aaa
 
 tags:
-- navpanel-fi
+- fi-topics
 - financial-independence
 - tutorial
 

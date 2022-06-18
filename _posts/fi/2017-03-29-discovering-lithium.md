@@ -12,7 +12,7 @@ navpanel: navpanel-fi.html
 navpanel-sort: zzzz
 
 tags:
-- navpanel-fi
+- fi-topics
 - financial-independence
 - shareholding
 - lithium
