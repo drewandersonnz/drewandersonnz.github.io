@@ -47,6 +47,8 @@ Here are some thoughts about Steps in the Ladder that can help you to see your s
   * 10 years
   * more...
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Do a little bit each day. It adds up.<a href="https://twitter.com/hashtag/SundayMotivation?src=hash&amp;ref_src=twsrc%5Etfw">#SundayMotivation</a> <a href="https://t.co/FEQzeCOJ1c">pic.twitter.com/FEQzeCOJ1c</a></p>&mdash; Steve Burns (@SJosephBurns) <a href="https://twitter.com/SJosephBurns/status/1538508560761503748?ref_src=twsrc%5Etfw">June 19, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## Early wins: 1 month of expenses invested
 
 It may not seem like it, but there are some very early benefits on this journey.

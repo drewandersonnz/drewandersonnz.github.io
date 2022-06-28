@@ -9,13 +9,13 @@ quotes:
 <div class="col-sm" markdown="1">
 # Personal
 
-* [Science](/science) and [Technology](/technology)
 * [Weather](/weather)
+* [Financial Independence](/fi) (personal goals)
+* [Science](/science) and [Technology](/technology)
 * [Astronomy, Universe, and Space Exploration](/space): Rockets, Survival Systems
 * [Renewable Energy](/energy): Solar, Wind, Hydro, Storage
 * [Sustainability](/energy) and Off-grid
 * Futurism
-* [Financial Independence](/fi) (personal goals)
 * [Automation, Instrumentation, and Electronics](/makers): Arduino, ESP, Home Assistant, Sensors
 * [Sports](/sport) of all kinds
 * [Movies, Music, Games, and other Media](/media)
