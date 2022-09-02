@@ -26,7 +26,7 @@ locations:
       - title: AccuWeather Rain Radar
         url:   https://www.accuweather.com/en/fr/lyon/171210/weather-radar/171210
       - title: meteoalarm.org
-        url:   https://meteoalarm.org/en
+        url:   https://meteoalarm.org/en/
       - title: European Severe Weather Database
         url:   https://eswd.eu/
       - title: snow-forecast.com France weather map
