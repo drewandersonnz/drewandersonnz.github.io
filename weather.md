@@ -10,31 +10,36 @@ quotes:
 
 locations:
 
-  lyon:
-    title: Lyon, France
-    lat: 45.763597
-    lon: 4.849712
-    wiki: https://en.wikipedia.org/wiki/Lyon
-    timeanddateembedlocationcode: "n333"
+  ormeau:
+    title: Gold Coast, Australia
+    lat: -27.7703191
+    lon: 153.2383924
+    wiki: https://en.wikipedia.org/wiki/Gold_Coast,_Queensland
+    timeanddateembedlocationcode: "n47"
 
     urls:
 
-      - title: Vigilance Meteo France
-        url:   https://vigilance.meteofrance.fr/fr
-      - title: Vigilance Meteo France - Rhone
-        url:   https://vigilance.meteofrance.fr/fr/rhone
-      - title: AccuWeather Rain Radar
-        url:   https://www.accuweather.com/en/fr/lyon/171210/weather-radar/171210
-      - title: meteoalarm.org
-        url:   https://meteoalarm.org/en/
-      - title: European Severe Weather Database
-        url:   https://eswd.eu/
-      - title: snow-forecast.com France weather map
-        url:   https://www.snow-forecast.com/maps/dynamic/france
-      - title: "Webcam: Radisson Blu Lyon"
-        url:   http://camera.deckchair.com/radisson-blu-lyon-france
-      - title: "Railcam Lyon (Youtube Live)"
-        url:   https://www.youtube.com/c/RailcamLyon
+      - title: bom.gov.au MetEye
+        url:   http://www.bom.gov.au/australia/meteye/
+
+      - title: bom.gov.au Brisbane Rain Radar
+        url:   http://www.bom.gov.au/products/IDR663.loop.shtml
+
+      - title: en.blitzortung.org
+        url:   http://en.blitzortung.org/live_lightning_maps.php?map=22
+
+      - title: bom.gov.au Brisbane Thunderstorms png
+        url:   http://www.bom.gov.au/fwo/IDA00050.png
+
+      - title: bom.gov.au Brisbane Thunderstorms
+        url:   http://www.bom.gov.au/qld/forecasts/brisbane-thunderstorms.shtml
+
+      - title: EWN Significant Weather Alerts Threat Map
+        url: https://ewn.com.au/info/significant_weather_forecast_map.aspx
+
+      - title: EWN Significant Weather Alerts Threat Map png
+        url: https://alerts3.ewn.com.au/threat_maps/significant_weather_large.png
+
   auckland:
     title: Auckland, New Zealand
     lat: -36.8358162
@@ -68,15 +73,6 @@ locations:
 
     urls:
 
-  berlin:
-    title: Berlin, Germany
-    lat: 52.5081873
-    lon: 13.3142033
-    wiki: https://en.wikipedia.org/wiki/Berlin
-    timeanddateembedlocationcode: "n37"
-
-    urls:
-
   london:
     title: London, UK
     lat: 51.5085642
@@ -92,29 +88,40 @@ locations:
       - title: NetWeather.tv Rain Radar
         url:   https://www.netweather.tv/index.cgi?action=radar
 
-  ormeau:
-    title: Gold Coast, Australia
-    lat: -27.7703191
-    lon: 153.2383924
-    wiki: https://en.wikipedia.org/wiki/Gold_Coast,_Queensland
-    timeanddateembedlocationcode: "n47"
+  lyon:
+    title: Lyon, France
+    lat: 45.763597
+    lon: 4.849712
+    wiki: https://en.wikipedia.org/wiki/Lyon
+    timeanddateembedlocationcode: "n333"
 
     urls:
 
-      - title: bom.gov.au MetEye
-        url:   http://www.bom.gov.au/australia/meteye/
+      - title: Vigilance Meteo France
+        url:   https://vigilance.meteofrance.fr/fr
+      - title: Vigilance Meteo France - Rhone
+        url:   https://vigilance.meteofrance.fr/fr/rhone
+      - title: AccuWeather Rain Radar
+        url:   https://www.accuweather.com/en/fr/lyon/171210/weather-radar/171210
+      - title: meteoalarm.org
+        url:   https://meteoalarm.org/en/
+      - title: European Severe Weather Database
+        url:   https://eswd.eu/
+      - title: snow-forecast.com France weather map
+        url:   https://www.snow-forecast.com/maps/dynamic/france
+      - title: "Webcam: Radisson Blu Lyon"
+        url:   http://camera.deckchair.com/radisson-blu-lyon-france
+      - title: "Railcam Lyon (Youtube Live)"
+        url:   https://www.youtube.com/c/RailcamLyon
 
-      - title: bom.gov.au Brisbane Rain Radar
-        url:   http://www.bom.gov.au/products/IDR663.loop.shtml
+  berlin:
+    title: Berlin, Germany
+    lat: 52.5081873
+    lon: 13.3142033
+    wiki: https://en.wikipedia.org/wiki/Berlin
+    timeanddateembedlocationcode: "n37"
 
-      - title: en.blitzortung.org
-        url:   http://en.blitzortung.org/live_lightning_maps.php?map=22
-
-      - title: bom.gov.au Brisbane Thunderstorms png
-        url:   http://www.bom.gov.au/fwo/IDA00050.png
-
-      - title: bom.gov.au Brisbane Thunderstorms
-        url:   http://www.bom.gov.au/qld/forecasts/brisbane-thunderstorms.shtml
+    urls:
 
 ---
 
