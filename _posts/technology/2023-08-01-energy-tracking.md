@@ -17,8 +17,11 @@ linkgroups:
 - title: "New Zealand"
   links:
 
-    - title: Transpower Consolidated live data
+    - title: Transpower Consolidated Live Data
       uri: https://www.transpower.co.nz/system-operator/live-system-and-market-data/consolidated-live-data
+
+    - title: em6 Electricity Market Overview
+      uri: https://app.em6.co.nz/
 
 - title: "Australia"
   links:
