@@ -40,6 +40,9 @@ locations:
       - title: EWN Significant Weather Alerts Threat Map png
         url: https://alerts3.ewn.com.au/threat_maps/significant_weather_large.png
 
+      - title: "Queensland Fire and Emergency Services: Current bushfire warnings and incidents"
+        url: https://www.qfes.qld.gov.au/Current-Incidents
+
   auckland:
     title: Auckland, New Zealand
     lat: -36.8358162
