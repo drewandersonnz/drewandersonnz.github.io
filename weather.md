@@ -128,6 +128,8 @@ locations:
 
 ---
 
+* [timeanddate.com/worldclock/sunearth.html](https://www.timeanddate.com/worldclock/sunearth.html)
+
 <div class="row">
 {% for location in page.locations %}
     <div class="col-md-4 col-sm-6">
