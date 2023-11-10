@@ -154,9 +154,17 @@ locations:
 <img src="https://www.google.com/images/branding/product/ico/maps15_bnuw3a_32dp.ico" />
 </a>
 
+</li>
+<li class="list-group-item">
+
 <a class="card-link" title="google.com/maps" href="https://geohack.toolforge.org/geohack.php?params={{location[1].lat}}_N_{{location[1].lon}}_E_">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/FP_Satellite_icon.svg/32px-FP_Satellite_icon.svg.png" />
 </a>
+
+<a class="card-link" title="bushfire.io" href="https://bushfire.io/?location=8.000/{{location[1].lat}}/{{location[1].lon}}/satellite/0/0">
+<img src="https://bushfire.io/images/favicon/favicon-32x32.png" />
+</a>
+
 </li>
 
 {% if location[1].timeanddateembedlocationcode %}
