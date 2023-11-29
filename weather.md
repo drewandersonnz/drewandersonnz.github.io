@@ -43,6 +43,9 @@ locations:
       - title: "Queensland Fire and Emergency Services: Current bushfire warnings and incidents"
         url: https://www.qfes.qld.gov.au/Current-Incidents
 
+      - title: "QLD Traffic"
+        url: https://qldtraffic.qld.gov.au/
+
   auckland:
     title: Auckland, New Zealand
     lat: -36.8358162
@@ -57,6 +60,9 @@ locations:
 
       - title: Niwa Weather (Youtube Live)
         url: https://www.youtube.com/channel/UCY9vaTwPBJsBdKSeunm25sg
+
+      - title: NZTA Journey Planner
+        url: https://www.journeys.nzta.govt.nz/
 
   thames:
     title: Thames, New Zealand
