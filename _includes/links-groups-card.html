@@ -5,7 +5,13 @@
         {% if include.title %}<h5 class="card-title">{{ include.title }}</h5>{% endif %}
         {% if include.links %}
             <ul class="list-group list-group-flush">
-                {% for link in include.links %}<li class="list-group-item"><a class="card-link" href="{{ link.uri }}">{{ link.title }}</a> {{ link.description }}</li>{% endfor %}
+                {% for link in include.links %}
+                <li class="list-group-item">
+                <a class="card-link" href="{{ link.uri }}">{{ link.title }}</a>
+                {% include social-links.html social=link.social %}
+                {{ link.description }}
+                </li>
+                {% endfor %}
             </ul>
         {% endif %}
         </div>

@@ -22,13 +22,9 @@ linkgroups:
 
     - title: everyday astronaut
       uri: https://everydayastronaut.com/
-      social: true
-      twitter: https://twitter.com/Erdayastronaut
-      youtube: https://www.youtube.com/c/EverydayAstronaut
-
-    - title: everyday astronaut (youtube)
-      uri: https://www.youtube.com/c/EverydayAstronaut
-
+      social:
+        twitter: https://twitter.com/Erdayastronaut
+        youtube: https://www.youtube.com/c/EverydayAstronaut
 
 - title: "Companies"
   links:
