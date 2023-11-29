@@ -1,6 +1,10 @@
 {% if include.social %}
 <div>
+{% if include.social.website %}<a href="{{ include.social.website }}" title="website"><i class="fas fa-globe"></i></a>{% endif %}
 {% if include.social.youtube %}<a href="{{ include.social.youtube }}" title="youtube"><i class="fab fa-youtube"></i></a>{% endif %}
-{% if include.social.twitter %}<a href="{{ include.social.twitter }}" title="twitter"><i class="fab fa-twitter"></i></a>{% endif %}
+{% if include.social.twitter %}<a href="https://twitter.com/{{ include.social.twitter }}" title="twitter"><i class="fab fa-twitter"></i></a>{% endif %}
+{% if include.social.linkedin %}<a href="{{ include.social.linkedin }}" title="linkedin"><i class="fab fa-linkedin"></i></a>{% endif %}
+{% if include.social.instagram %}<a href="https://www.instagram.com/{{ include.social.instagram }}" title="instagram"><i class="fab fa-instagram"></i></a>{% endif %}
+{% if include.social.facebook %}<a href="https://www.facebook.com/{{ include.social.facebook }}" title="facebook"><i class="fab fa-facebook"></i></a>{% endif %}
 </div>
 {% endif %}
