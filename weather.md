@@ -165,6 +165,10 @@ locations:
 <img src="https://bushfire.io/images/favicon/favicon-32x32.png" />
 </a>
 
+<a class="card-link" title="windy.com" href="https://windy.com/?{{location[1].lat}},{{location[1].lon}},10">
+<img src="https://img.windy.com/albums/icons/logo-full.png?w=32" />
+</a>
+
 </li>
 
 {% if location[1].timeanddateembedlocationcode %}
