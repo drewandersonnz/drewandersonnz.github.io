@@ -21,27 +21,34 @@ locations:
 
       - title: bom.gov.au MetEye
         url:   http://www.bom.gov.au/australia/meteye/
+        social:
+          twitter: BOM_au
+          youtube: https://www.youtube.com/user/BureauOfMeteorology
+          linkedin: https://www.linkedin.com/company/bureau-of-meteorology/
 
       - title: bom.gov.au Brisbane Rain Radar
         url:   http://www.bom.gov.au/products/IDR663.loop.shtml
+        social:
+          twitter: BOM_Qld
+
+      - title: bom.gov.au Brisbane Thunderstorms
+        url:   http://www.bom.gov.au/qld/forecasts/brisbane-thunderstorms.shtml
+        social:
+          image: http://www.bom.gov.au/fwo/IDA00050.png
+          twitter: BOM_Qld
+
+      - title: EWN Significant Weather Alerts Threat Map
+        url: https://ewn.com.au/info/significant_weather_forecast_map.aspx
+        social:
+          image: https://alerts3.ewn.com.au/threat_maps/significant_weather_large.png
 
       - title: en.blitzortung.org
         url:   http://en.blitzortung.org/live_lightning_maps.php?map=22
 
-      - title: bom.gov.au Brisbane Thunderstorms png
-        url:   http://www.bom.gov.au/fwo/IDA00050.png
-
-      - title: bom.gov.au Brisbane Thunderstorms
-        url:   http://www.bom.gov.au/qld/forecasts/brisbane-thunderstorms.shtml
-
-      - title: EWN Significant Weather Alerts Threat Map
-        url: https://ewn.com.au/info/significant_weather_forecast_map.aspx
-
-      - title: EWN Significant Weather Alerts Threat Map png
-        url: https://alerts3.ewn.com.au/threat_maps/significant_weather_large.png
-
       - title: "Queensland Fire and Emergency Services: Current bushfire warnings and incidents"
         url: https://www.qfes.qld.gov.au/Current-Incidents
+        social:
+          twitter: QldFES
 
       - title: "QLD Traffic"
         url: https://qldtraffic.qld.gov.au/
@@ -57,9 +64,13 @@ locations:
 
       - title: MetService.com
         url:   https://www.metservice.com/
+        social:
+          twitter: metservice
 
       - title: Niwa Weather (Youtube Live)
-        url: https://www.youtube.com/channel/UCY9vaTwPBJsBdKSeunm25sg
+        url: https://weather.niwa.co.nz/
+        social:
+          youtube: https://www.youtube.com/channel/UCY9vaTwPBJsBdKSeunm25sg
 
       - title: NZTA Journey Planner
         url: https://www.journeys.nzta.govt.nz/
@@ -184,7 +195,10 @@ locations:
 
 {% if location[1].urls %}
 {% for url in location[1].urls %}
-<li class="list-group-item"><a class="card-link" href="{{url.url}}">{{url.title}}</a></li>
+<li class="list-group-item">
+  <a class="card-link" href="{{url.url}}">{{url.title}}</a>
+  {% include social-links.html social=url.social %}
+</li>
 {% endfor %}
 {% endif %}
 
