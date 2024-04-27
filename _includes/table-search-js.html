@@ -1,0 +1,33 @@
+<script type="text/javascript">
+    $(function() {
+        $(".nav_hover").hover(
+        function() {
+            $($(this).attr('href').replace(/\#/g,'.')).css('background-color', '#DFF0D8')
+        }, function() {
+            $($(this).attr('href').replace(/\#/g,'.')).css('background-color', '')
+        });
+    });
+
+    function updateSearch() {
+        // https://stackoverflow.com/questions/4197591/parsing-url-hash-fragment-identifier-with-javascript
+        const parsedHash = new URLSearchParams(
+          window.location.hash.substr(1) // skip the first char (#)
+        );
+
+        $("{{ include.filterinput }}").val(parsedHash.get("search"));
+        $("{{ include.filterinput }}").keyup();
+    }
+
+    $(document).ready(function(){
+        window.onhashchange = updateSearch;
+
+        $("{{ include.filterinput }}").on("keyup", function() {
+            var value = $(this).val().toLowerCase();
+            $("{{ include.filterpath }}").filter(function() {
+                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+            });
+        });
+
+        updateSearch();
+    });
+</script>

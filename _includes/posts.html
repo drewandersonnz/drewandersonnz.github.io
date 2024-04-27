@@ -1,6 +1,12 @@
+{% include table-search-js.html filterpath="#listPosts div.card" filterinput="#searchInput" %}
+
+<input class="form-control" id="searchInput" type="text" placeholder="Search..">
+
+<div id="listPosts">
+
 {% for post in include.posts %}
 
-<div class="card border-0">
+<div class="card border-0 nav_hover">
     <div class="card-body">
         <a href="{{ post.url }}"><h5 class="card-title">{{ post.title }}</h5></a>
         <p class="card-subtitle mb-2 text-muted">{{ post.date | date: '%d %B %Y' }} {% include tags.html tags=post.tags %}</p>
@@ -9,3 +15,5 @@
 </div>
 
 {% endfor %}
+
+</div>
