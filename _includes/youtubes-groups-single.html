@@ -1,0 +1,8 @@
+{% if include.title %}<h1>{{ include.title }}</h1>{% endif %}
+{% if include.videos %}
+<ul>
+{% for video in include.videos %}
+    <li><a href="https://www.youtube.com/watch?v={{ video.id }}">{{ video.title }}</a> {{ video.description }}</li>
+{% endfor %}
+</ul>
+{% endif %}

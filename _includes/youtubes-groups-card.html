@@ -1,0 +1,33 @@
+{% assign iframesize = 'width="720" height="405"' %}
+{% assign iframesize = '' %}
+
+<div class="py-1 col col-12 col-sm-6 col-lg-4">
+    <div class="card card border-0">
+        <div class="card-body">
+        {% if include.title %}<h5 class="card-title">{{ include.title }}</h5>{% endif %}
+        {% if include.description %}<div>{{ include.description }}</div>{% endif %}
+
+        {% if include.videos %}
+            {% for video in include.videos %}
+                {% if video.title %}<div><a href="https://www.youtube.com/embed?playlist={{ video.id }}">{{ video.title }}</a></div>{% endif %}
+                {% if video.description %}<div>{{ video.description }}</div>{% endif %}
+                <!-- https://www.youtube.com/embed/{{ video.id }} -->
+                <!-- https://www.youtube.com/embed?playlist={{ video.id }} -->
+                <iframe {{ iframesize }} src="https://www.youtube.com/embed?playlist={{ video.id }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe -->
+            {% endfor %}
+        {% endif %}
+
+        {% if include.links %}
+            <ul class="list-group list-group-flush">
+                {% for link in include.links %}
+                <li class="list-group-item">
+                <a class="card-link" href="{{ link.uri }}">{{ link.title }}</a>
+                {% include social-links.html social=link.social %}
+                {{ link.description }}
+                </li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+        </div>
+    </div>
+</div>

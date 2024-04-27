@@ -1,0 +1,13 @@
+{% if include.groups %}
+<div class="container">
+    <div class="row">
+{% for group in include.groups %}
+{% include youtubes-groups-card.html group=include.group title=group.title videos=group.videos %}
+{% endfor %}
+{% if include.videos %}{% include youtubes-groups-single.html videos=include.videos %}{% endif %}
+    </div>
+</div>
+{% else %}
+
+{% if include.videos %}{% include youtubes-groups-single.html videos=include.videos %}{% endif %}
+{% endif %}
