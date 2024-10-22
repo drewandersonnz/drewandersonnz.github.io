@@ -16,6 +16,7 @@ locations:
     lon: 153.2383924
     wiki: https://en.wikipedia.org/wiki/Gold_Coast,_Queensland
     timeanddateembedlocationcode: "n47"
+    timeanddateastronomy: https://www.timeanddate.com/astronomy/australia/gold-coast
 
     urls:
 
@@ -59,6 +60,7 @@ locations:
     lon: 174.6048105
     wiki: https://en.wikipedia.org/wiki/Auckland
     timeanddateembedlocationcode: "n22"
+    timeanddateastronomy: https://www.timeanddate.com/astronomy/new-zealand/auckland
 
     urls:
 
@@ -81,6 +83,7 @@ locations:
     lon: 175.5414343
     wiki: https://en.wikipedia.org/wiki/Thames,_New_Zealand
     timeanddateembedlocationcode: "n22"
+    timeanddateastronomy: https://www.timeanddate.com/astronomy/@2208333
 
     urls:
 
@@ -90,7 +93,7 @@ locations:
     lon: 175.8523153
     wiki: https://en.wikipedia.org/wiki/Waihi
     timeanddateembedlocationcode: "n22"
-
+    timeanddateastronomy: https://www.timeanddate.com/astronomy/@2208328
     urls:
 
   london:
@@ -99,6 +102,7 @@ locations:
     lon: 0.0153286
     wiki: "https://en.wikipedia.org/wiki/London"
     timeanddateembedlocationcode: "n136"
+    timeanddateastronomy: https://www.timeanddate.com/astronomy/uk/london
 
     urls:
 
@@ -114,6 +118,7 @@ locations:
     lon: 4.849712
     wiki: https://en.wikipedia.org/wiki/Lyon
     timeanddateembedlocationcode: "n333"
+    timeanddateastronomy: https://www.timeanddate.com/astronomy/france/lyon
 
     urls:
 
@@ -140,6 +145,7 @@ locations:
     lon: 13.3142033
     wiki: https://en.wikipedia.org/wiki/Berlin
     timeanddateembedlocationcode: "n37"
+    timeanddateastronomy: https://www.timeanddate.com/astronomy/germany/berlin
 
     urls:
 
@@ -184,6 +190,10 @@ locations:
 
 <a class="card-link" title="windy.com" href="https://windy.com/?{{location[1].lat}},{{location[1].lon}},10">
 <img src="https://img.windy.com/albums/icons/logo-full.png?w=32" />
+</a>
+
+<a class="card-link" title="timeanddate.com" href="{{location[1].timeanddateastronomy}}">
+<img src="https://c.tadst.com/favicon-32x32.png" />
 </a>
 
 </li>
