@@ -14,6 +14,13 @@ tags:
 
 linkgroups:
 
+
+- title: "Global"
+  links:
+
+    - title: Open Infrastructure Map
+      uri: "https://openinframap.org/#2.55/-33.39/166.67"
+
 - title: "New Zealand"
   links:
 
