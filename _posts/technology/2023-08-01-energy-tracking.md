@@ -40,6 +40,9 @@ linkgroups:
     - title: reneweconomy.com.au/nem-watch
       uri: https://reneweconomy.com.au/nem-watch/
 
+    - title: energex.com.au/outages
+      uri: https://www.energex.com.au/outages/outage-finder/outage-finder-map/
+
 ---
 
 Finding out how energy is generated in realtime.
