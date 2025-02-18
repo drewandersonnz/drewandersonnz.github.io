@@ -17,6 +17,7 @@ locations:
     wiki: https://en.wikipedia.org/wiki/Gold_Coast,_Queensland
     timeanddateembedlocationcode: "n47"
     timeanddateastronomy: https://www.timeanddate.com/astronomy/australia/gold-coast
+    googleweather: "weather southport qld australia"
 
     urls:
 
@@ -169,9 +170,15 @@ locations:
 <img src="https://www.lightningmaps.org/Images/favicon.ico" />
 </a>
 
-<a class="card-link" title="google.com" href="https://www.google.com/search?q=weather {{location[1].title}}">
+<a class="card-link" title="google.com weather" href="https://www.google.com/search?q=weather {{location[1].title}}">
 <img src="https://avatars.githubusercontent.com/u/1342004?s=32&v=4" />
 </a>
+
+{% if location[1].googleweather %}
+<a class="card-link" title="google.com weather" href="https://www.google.com/search?q={{location[1].googleweather}}">
+<img src="https://raw.githubusercontent.com/mrdarrengriffin/google-weather-icons/refs/heads/main/v4/very_hot.svg" style="width:32px; height:32px;" />
+</a>
+{% endif %}
 
 <a class="card-link" title="google.com/maps" href="https://www.google.com/maps/search/?api=1&query={{location[1].lat}},{{location[1].lon}}">
 <img src="https://www.google.com/images/branding/product/ico/maps15_bnuw3a_32dp.ico" />
